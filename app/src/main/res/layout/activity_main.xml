@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="286dp"
+        android:layout_height="117dp"
+        android:fontFamily="@font/alegreya_bold"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Monkey See, Monkey Say"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textFontWeight="900"
+
+
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <TableLayout
+        android:layout_width="262dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="207dp"
+        android:background="#C4C4C4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0"
+        android:stretchColumns="*"
+        >
+
+        <TableRow
+            android:id="@+id/firstRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:background="#B3000000"
+                android:gravity="center"
+
+                android:text="Text 1"
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+            <TextView
+
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="Text 2"
+
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/secondRow"
+            >
+
+            <TextView
+
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:gravity="center"
+                android:text="Text 3"
+                android:textColor="#000"
+
+                android:textSize="35dp" />
+
+        <TextView
+
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="131dp"
+            android:gravity="center"
+            android:text="Text 4"
+            android:textColor="#000"
+
+            android:textSize="35dp" />
+        </TableRow>
+
+    </TableLayout>
+    <!--    android:textStyle="bold"-->
+    <!-- Monkey See, Monkey Say -->
+    <!--    android:layout_width="349dp"-->
+    <!--    android:layout_height="68dp"-->
+
+
+    <!--    android:layout_width="277dp"-->
+    <!--    android:layout_height="105dp"-->
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/monkey_see_"-->
+    <!--        android:layout_width="349dp"-->
+    <!--        android:layout_height="68dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_marginLeft="9dp"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="79dp"-->
+    <!--        android:text="@string/monkey_see_"-->
+    <!--        android:textAppearance="@style/monkey_see_"-->
+    <!--        android:gravity="center_horizontal|center_vertical"-->
+    <!--        />-->
+
+    <!--    &lt;!&ndash;-->
+    <!--      Font family: Alegreya-->
+    <!--      Line height: 65sp-->
+    <!--    &ndash;&gt;-->
+    <!--    &lt;!&ndash; styles.xml &ndash;&gt;-->
+    <!--    <style name="monkey_see_">-->
+
+    <!--        <item name="android:textSize">-->
+    <!--            48sp-->
+    <!--        </item>-->
+
+    <!--        <item name="android:textColor">-->
+    <!--            #000000-->
+    <!--        </item>-->
+
+    <!--    </style>-->
+
+
+    <!--    &lt;!&ndash; strings.xml &ndash;&gt;-->
+    <!--    <string name="monkey_see_">-->
+
+    <!--        Monkey See, Monkey Say-->
+    <!--    </string>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
