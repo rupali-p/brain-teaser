@@ -28,7 +28,7 @@
         android:id="@+id/tableLayout"
         android:layout_width="262dp"
         android:layout_height="262dp"
-        android:background="#C4C4C4"
+
         android:stretchColumns="*"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,29 +42,39 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="8dp">
 
-            <TextView
+            <EditText
 
                 android:id="@+id/word1"
                 android:layout_width="127dp"
                 android:layout_height="127dp"
                 android:layout_marginEnd="8dp"
-                android:background="#3B3B3B"
+                android:background="@drawable/table1"
                 android:gravity="center"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textSize="35sp" />
 
-            <TextView
+            <EditText
 
                 android:id="@+id/word2"
                 android:layout_width="127dp"
                 android:layout_height="127dp"
-                android:background="#3B3B3B"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/table2"
                 android:gravity="center"
-                android:text="word 2"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textSize="35sp" />
+<!--            <LinearLayout-->
+<!--                android:layout_width="127dp"-->
+<!--                android:layout_height="127dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:background="@drawable/table1" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="127dp"-->
+<!--                android:layout_height="127dp"-->
+<!--                android:background="@drawable/table2" />-->
 
         </TableRow>
 
@@ -73,30 +83,46 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
+            <EditText
 
                 android:id="@+id/word3"
                 android:layout_width="127dp"
                 android:layout_height="127dp"
                 android:layout_marginEnd="8dp"
-                android:background="#3B3B3B"
+                android:background="@drawable/table3"
                 android:gravity="center"
-                android:text="word 3"
+                android:text="purple"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textSize="35sp" />
 
-            <TextView
+            <EditText
 
                 android:id="@+id/word4"
                 android:layout_width="127dp"
                 android:layout_height="127dp"
-                android:background="#3B3B3B"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/table4"
                 android:gravity="center"
-                android:text="word 4"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textSize="35sp" />
+<!--            <LinearLayout-->
+<!--                android:layout_width="127dp"-->
+<!--                android:layout_height="127dp"-->
+<!--                android:background="@drawable/table4" />-->
+
+<!--            <TextView-->
+
+<!--                android:id="@+id/word4"-->
+<!--                android:layout_width="127dp"-->
+<!--                android:layout_height="127dp"-->
+<!--                android:background="#3B3B3B"-->
+<!--                android:gravity="center"-->
+<!--                android:text="word 4"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="35sp" />-->
         </TableRow>
 
     </TableLayout>
@@ -106,7 +132,9 @@
         android:layout_width="222dp"
         android:layout_height="70dp"
         android:layout_marginBottom="40dp"
+        android:autoText="false"
         android:backgroundTint="#C4C4C4"
+        android:elevation="30dp"
         android:fontFamily="@font/alegreya_bold"
         android:gravity="center_horizontal|center_vertical"
         android:insetTop="0dp"
@@ -121,6 +149,20 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+<!--    <TextView-->
+
+<!--        android:id="@+id/word2"-->
+<!--        android:layout_width="127dp"-->
+<!--        android:layout_height="127dp"-->
+<!--        android:background="#3B3B3B"-->
+<!--        android:gravity="center"-->
+<!--        android:text="word 2"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="35sp"-->
+<!--        tools:layout_editor_absoluteX="271dp"-->
+<!--        tools:layout_editor_absoluteY="632dp" />-->
 
     <!--    <shape-->
 
